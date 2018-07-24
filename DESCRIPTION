@@ -1,0 +1,20 @@
+Package: tidyGE
+Type: Package
+Title: Extract and Tidy DGE Objects
+Version: 0.0.0.9000
+Authors@R: person("Brendan", "Ansell", email= "ansell.b@wehi.edu.au", role=c("aut","cre"))
+Maintainer: Brendan Ansell <ansell.b@wehi.edu.au>
+Description: Extract digitial gene expression (DGE) objects created in edgeR, limma and voom into data frames for downstream analysis and plotting.
+    Link results from gene set enrichment testing (e.g. limma::goana()) to constituent genes.
+License: 
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr,
+    edgeR,
+    limma,
+    magrittr,
+    tibble,
+    tidyselect
+Suggests: org.Hs.eg.db,
+    org.Mm.eg.db
+RoxygenNote: 6.0.1
